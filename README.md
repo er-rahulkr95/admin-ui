@@ -28,8 +28,8 @@ Technologies used for creating test cases for the project:
 - @testing-library/user-event
 - axios-mock-adapter
 
-**Note: Tested with different scenario and all the test cases are passing**
-       - **Test report is added in the repository**
+**Note: Tested with different scenario and all the test cases are passing. 
+        Test report is added in the repository**
 
 ## Requirements
 
