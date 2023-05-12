@@ -29,7 +29,7 @@ Technologies used for creating test cases for the project:
 - axios-mock-adapter
 
 **Note: Tested with different scenario and all the test cases are passing**
-        **Test report is added in the repository**
+       - **Test report is added in the repository**
 
 ## Requirements
 
