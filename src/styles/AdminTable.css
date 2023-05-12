@@ -1,0 +1,75 @@
+.table-contianer {
+  overflow-x: auto;
+  overflow-y: auto;
+  height: 70vh;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-contianer thead th{
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.75rem;
+}
+
+tr {
+  border-bottom: 1px solid #d3d3d3;
+}
+
+
+.admin-table-body tr:hover{
+  background-color: rgba(0, 0, 0, 0.1);
+  transition: background-color 500ms;
+}
+.action {
+  display: flex;
+  align-items: center;
+}
+
+.action button {
+  height: 1.5rem;
+  width: 1.5rem;
+  cursor: pointer;
+  border: unset;
+  background-color: unset;
+  -webkit-tap-highlight-color: transparent;
+
+}
+
+.action button:first-child {
+  margin-right: 1rem;
+}
+
+.deleteButton {
+  fill: #ef5350;
+}
+
+.selected-user {
+
+  background-color: rgba(0, 0, 0, 0.1);
+
+}
+
+.checkbox, .selectAll {
+  width: 1rem;
+  height: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .admin-table {
+    table-layout: fixed;
+  }
+  .table-contianer{
+    height: 78vh;
+  }
+  
+}

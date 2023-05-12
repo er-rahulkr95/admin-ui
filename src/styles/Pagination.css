@@ -1,0 +1,116 @@
+.pagination {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.pagination ul {
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0;
+  list-style: none;
+}
+
+.pagination-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  cursor: pointer;
+  user-select: none;
+  vertical-align: middle;
+  font-size: 0.875rem;
+  font-weight: bold;
+  line-height: 1.43;
+  border-radius: 50%;
+  text-align: center;
+  min-width: 2rem;
+  height: 2rem;
+  padding: 0px 6px;
+  margin: 0px 0.5rem 0.25rem 0.5rem;
+  margin-bottom: 0.25rem;
+  color: rgba(0, 0, 0, 0.87);
+  transition: color 250ms, background-color 250ms;
+  color: #1976d2;
+  border: 1px solid rgba(25, 118, 210, 0.5);
+}
+
+
+.pagination-button svg{
+  user-select: none;
+  width: 1em;
+  height: 1em;
+  display: inline-block;
+  fill: #1976d2;
+  transition: fill 200ms;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: unset;
+}
+
+.pagination-button.prev,
+.pagination-button.next {
+  background-color: #185a9d;
+}
+
+.pagination-button.first,
+.pagination-button.last {
+  background-color: #11477d;
+}
+
+.pagination-button.first svg,
+.pagination-button.prev svg,
+.pagination-button.last svg,
+.pagination-button.next svg {
+  fill: white;
+}
+
+.pagination-button.active {
+  color: #fff;
+  background-color: #1976d2;
+}
+
+
+
+
+.pagination-button:hover {
+  background-color: #1565c0;
+  color: #fff;
+}
+
+.pagination-button:hover svg {
+  fill: white;
+}
+
+
+.pagination-button.disabled{
+  pointer-events: none;
+  cursor: unset;
+  opacity: 0.38;
+
+}
+
+.pagination-button.jump:hover:not(.active){
+  color: #1976d2;
+  background-color: #fff;
+}
+
+
+.pagination-button.disabled:hover{
+  background-color: #fff;
+}
+
+.pagination-button.disabled:hover svg{
+  fill: #1976d2;
+
+}
+
+@media screen and (min-width: 1200px) {
+
+  .pagination-button{
+    margin-bottom: 0px;
+  }
+}

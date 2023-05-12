@@ -1,0 +1,12 @@
+.success {
+  fill: #4caf50;
+}
+
+.close {
+  fill: #d32f2f;
+}
+
+.user-detail-input {
+  height: 1.5rem;
+  padding-left: 0.5rem;
+}
