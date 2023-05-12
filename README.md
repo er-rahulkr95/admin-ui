@@ -1,6 +1,10 @@
 <h1 align="center" id="title">Admin UI</h1>
 
+<<<<<<< HEAD
 <p align="center"><img src="https://socialify.git.ci/er-rahulkr95/admin-ui/image?language=1&amp;name=1&amp;owner=1&amp;theme=Auto" alt="project-image"></p>
+=======
+<p align ="center"><img src="https://socialify.git.ci/er-rahulkr95/admin-ui/image?language=1&name=1&owner=1&theme=Auto" alt="admin-ui" width="640" height="320" /></p>
+>>>>>>> 1c8a3e0e1837b0a0fa9bff3b274a95b105239886
 
 # Admin UI
 
@@ -28,8 +32,8 @@ Technologies used for creating test cases for the project:
 - @testing-library/user-event
 - axios-mock-adapter
 
-**Note: Tested with different scenario and all the test cases are passing**
-        **Test report is added in the repository**
+**Note: Tested with different scenario and all the test cases are passing. 
+        Test report is added in the repository**
 
 ## Requirements
 
