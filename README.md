@@ -58,6 +58,10 @@ The requirements and feature that needs to be implemented in the project are ava
 - Pagination update based on search/filtering. If there are 25 records for example that match a search query, then pagination buttons should only go till 3.
 
 - Able to select one or more rows. A selected row is highlighted with a grayish background color.
+- Multiple selected rows can be deleted at once using the 'Delete Selected' button at the bottom left.
+- Checkbox on the top left is a shortcut to select or deselect all displayed rows. It is only apply to the ten rows displayed in the current page, and not all 50 rows.
+- At bottom, a number representing how many rows are selected for deletion is displayed for better user experience.
+
 
 
 ## Responsiveness
