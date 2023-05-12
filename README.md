@@ -1,6 +1,6 @@
 <h1 align="center" id="title">Admin UI</h1>
 
-<p align ="center"><img src="https://socialify.git.ci/er-rahulkr95/admin-ui/image?forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Solid&amp;pulls=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
+![admin-ui](https://socialify.git.ci/er-rahulkr95/admin-ui/image?forks=1&issues=1&language=1&name=1&owner=1&pulls=1&stargazers=1&theme=Auto)
 
 # Admin UI
 
