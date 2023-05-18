@@ -2,9 +2,6 @@
   overflow-x: auto;
   overflow-y: auto;
   height: 70vh;
-  border-radius: 4px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
-  margin: 0 0.15rem 0 0.15rem;
 }
 
 .admin-table {
@@ -27,7 +24,6 @@ td {
 tr {
   border-bottom: 1px solid #d3d3d3;
 }
-
 
 .admin-table-body tr:hover{
   background-color: rgba(0, 0, 0, 0.1);
@@ -72,8 +68,7 @@ tr {
     table-layout: fixed;
   }
   .table-contianer{
-    height: 75vh;
-    margin-bottom: 1.25rem;
+    height: 78vh;
   }
   
 }
