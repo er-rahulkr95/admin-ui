@@ -1,9 +1,12 @@
 .search-bar {
   width: 100%;
   height: 2rem;
+  /* margin-right: 0.5rem; */
   padding-left: 0.5rem;
 }
-
+.search-box-container{
+  margin-right: 0.8rem;
+}
 .no-result {
   text-align: start;
   margin: 1rem;

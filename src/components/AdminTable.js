@@ -149,7 +149,7 @@ const AdminTable = ({
 
   return (
     <>
-      <section className="table-contianer">
+      <section className="table-contianer table-contianer-border">
         <table className="admin-table">
           <thead>
             <tr>

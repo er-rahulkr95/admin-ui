@@ -2,6 +2,10 @@
   overflow-x: auto;
   overflow-y: auto;
   height: 70vh;
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px, rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+  margin: 0 0.15rem 0 0.15rem;
 }
 
 .admin-table {
@@ -69,7 +73,8 @@ tr {
     table-layout: fixed;
   }
   .table-contianer{
-    height: 78vh;
+    height: 75vh;
+    margin-bottom: 1.25rem;
   }
   
 }

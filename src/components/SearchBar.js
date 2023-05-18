@@ -78,7 +78,7 @@ const SearchBar = ({
   };
 
   return (
-    <section aria-label="Seach Box">
+    <section aria-label="Search Box"  className="search-box-container" >
       <input
         type="text"
         className="search-bar"

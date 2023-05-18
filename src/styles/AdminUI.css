@@ -74,12 +74,38 @@
   margin-bottom: 1rem;
 }
 
+
+
+@media screen and (max-width: 480px) {
+
+  .delete-selected {
+    width: 100%;
+ 
+  }
+
+  .count-selected,
+.zero-selected {
+  width: 100%;
+}
+
+  .pagination-section{
+    justify-content: space-around;
+  }
+  
+}
+
+@media screen and (min-width:480px) and (max-width:768px) {
+  .pagination-section{
+    justify-content: space-around;
+  }
+}
+ 
 @media screen and (min-width: 1200px) {
 
-   .pagination-section {
-    align-items: center;
-    margin-top: 0.5rem;
-   
-  }
+  .pagination-section {
+   align-items: center;
+   margin-top: 0.5rem;
+  
+ }
 
 }
